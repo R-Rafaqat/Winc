@@ -1,0 +1,42 @@
+body {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: lightgrey;
+    margin: 0%;
+}
+
+main {
+    margin: 2% 5%;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+p {
+    padding: 5px;
+    font-size: 18px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+#green-background {
+    background-color: green;
+}
+
+footer { 
+    background-color: darkred;
+}
