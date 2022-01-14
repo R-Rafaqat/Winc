@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: purple;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+p {
+    line-height: 1,10;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+h2 {
+    margin: 50px 0px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* header logo*/
+
+.head-logo {
+    background-color: white;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* header, Navbar */
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: purple;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding: 0px 20px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: purple;
+}
+
+
+/* main */
+
+.main-container {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: purple;
+    color: white;
+}
+
+.main-content {
+    max-width: 100%;
+}
+.main-img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border: 5px solid white;
+    margin: auto;
+}
+
+.main-text h3 {
+    text-align: center;
+}
+
+.main-txt {
+    padding: 20px 0px;
+    margin: auto;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-heading {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 20px 0px;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: auto;
+    padding: 20;
+    overflow: hidden;
+}
+
+.footer-link {
+    display: none;
+}
+
+.footer-img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: auto;
+}
+
+.copy-right {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* Contact Form */
+
+.contact {
+    width: 100%;
+    height: auto;
+    background-color: purple;
+    margin: 10px auto;
+}
+
+.contact h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.form-table {
+    margin: auto;
+}
+
+.contact-heading {
+    color: white;
+    font-size: 1.2rem;
+    width: 30%;
+    text-align: left;
+    margin: 0;
+}
+
+.contact-data {
+    width: 100%;
+    
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: purple;
+}
+
+.form-btn {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: purple;
+    border: 3px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: block;
+}
+
+/* Meia Queries */
+
+@media (min-width: 1024px) {
+
+    body {
+    background-color: orange;
+    }
+
+    h1, h2, h3 {
+        color: black;
+    }
+    
+    .navbar {
+        background-color: orange;
+        max-width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .navbar ul {
+        float: right;
+    }
+
+    .nav-item {
+        float: left;
+    }
+    .nav-link {
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        font-size: 1.5rem;
+        padding: 0px 20px;
+    }
+    
+    .nav-link:hover {
+        color: black;
+    }
+
+    .main-container {
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        background-color: orange;
+        color: black;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .main-txt h3 {
+        text-align: left;
+    }
+    .main-img {
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+        float: left;
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .main-txt {
+            padding: 50px 100px 0px 0px;
+        }
+
+    /* overflow fix img and content */
+
+    .main-content {
+        overflow: hidden;
+    }
+
+    .footer-list {
+        width: 30%;
+        margin: auto;
+    }
+
+    .footer-item {
+        padding-left: 10px;
+        float: left;    
+    }
+
+    .footer-link {
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-weight: 10;
+        font-size: 1.2rem;
+        padding-left: 10px;
+        
+    }
+
+    .footer-img {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact, .contact h2 {
+        background-color: orange;
+        text-align: left;
+        color: white;
+    }
+
+    .form-table {
+        margin: 0;
+    }
+
+    .contact-heading {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+    .contact-data {
+        font-size: 20px;
+        height: 45px;
+    }
+
+    .submit-btn {
+        background-color: orange;
+        width: 50%;
+    }
+
+    .form-btn {
+        background-color: orange;
+        float: right;
+    }
+
+    .contact-icon h2 {
+        color: white;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .contact-icon i {
+        margin-right: 10px;
+    }
+}
+
+  
